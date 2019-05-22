@@ -10,7 +10,7 @@ module.exports = {
                     options: {
                         presets: [
                             '@babel/preset-react',
-                            //'@babel/preset-stage-0',
+                            //'@babel/plugin-syntax-dynamic-import',
                             '@babel/preset-env'
                         ]
                     }
