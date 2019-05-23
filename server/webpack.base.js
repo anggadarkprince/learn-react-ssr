@@ -3,15 +3,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js?$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: [
-                            '@babel/preset-react',
-                            //'@babel/plugin-syntax-dynamic-import',
-                            '@babel/preset-env'
+                            '@babel/preset-env',
+                            '@babel/preset-react'
                         ]
                     }
                 }
