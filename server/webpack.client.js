@@ -3,7 +3,7 @@ const merge = require('webpack-merge');
 const baseConfig = require('./webpack.base.js');
 
 const config = {
-    mode: 'production',
+    mode: 'development',
 
     // Tell webpack the root file of our
     // client application
